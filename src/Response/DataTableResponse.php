@@ -8,11 +8,13 @@ class DataTableResponse extends Response{
 
     public function response()
     {
-        return response()->json([
+        $data =[
             "recordsTotal" => $this->getTotal(),
             "recordsFiltered" =>$this->getTotal(),
             "data" =>$this->getData(),
-        ]);
+        ];
+
+        return json_encode((object)$data);
     }
     public function setTotal(int $totalData)
     {
