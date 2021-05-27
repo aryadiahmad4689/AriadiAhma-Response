@@ -29,7 +29,7 @@
 ``use AriadiAhmad\Response\ApiResponse;``
 
 ``$response = new ApiResponse();``
-``$response = $response->setCode(404)->setMessage("Gagal Melihat Data")->setStatus(false)->response();`
+``$response = $response->setCode(404)->setMessage("Gagal Melihat Data")->setStatus(false)->response();``
   
   ***
   
