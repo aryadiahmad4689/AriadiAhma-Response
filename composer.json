@@ -1,0 +1,18 @@
+{
+    "name": "ariadiahmad/response-dcc-consultan",
+    "description": "Ini Adalah Response Yang Ditujukan Untuk Perusahaan Dcc Consultan.com",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ariadi ahmad",
+            "email": "ariadi.ahmadd@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4" :{
+            "AriadiAhmad\\" : "src/"
+        }
+    }
+}
