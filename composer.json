@@ -13,6 +13,9 @@
             "AriadiAhmad\\" : "src/"
         }
     },
+    "require": {
+        "php": ">=7.3"
+    },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     }

@@ -1,5 +1,6 @@
 ## Ini Adalah Library Untuk Perusahaan Dcc Consultant.com
 - Cara install 
+<Enter>
 ``composer require ariadiahmad/response-dcc-consultan``
 - Cara penggunaan
 - Jika Success
@@ -27,8 +28,12 @@
 <Enter>
   
 ``use AriadiAhmad\Response\ApiResponse;``
+<Enter>
 
 ``$response = new ApiResponse();``
+
+<Enter>
+
 ``$response = $response->setCode(404)->setMessage("Gagal Melihat Data")->setStatus(false)->response();``
   
   ***
